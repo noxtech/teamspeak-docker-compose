@@ -22,3 +22,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: example
       MYSQL_DATABASE: teamspeak
+    volumes:
+      - /srv/servers/teamspeak:/var/lib/mysql
